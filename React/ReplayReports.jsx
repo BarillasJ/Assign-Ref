@@ -1,5 +1,5 @@
 import React from "react";
-import debug from "sabio-debug";
+import debug from "assignRef-debug";
 const logger = debug.extend("ReplayReports");
 import PropTypes from "prop-types";
 import "./gamereplayreport.css";
