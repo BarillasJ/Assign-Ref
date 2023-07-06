@@ -1,20 +1,3 @@
-﻿using Sabio.Data.Providers;
-using Sabio.Models.Requests.ReplayEntries;
-using Sabio.Services.Interfaces;
-using System;
-using System.Collections.Generic;
-using System.Data.SqlClient;
-using System.Data;
-using Sabio.Models.Domain.ReplayEntries;
-using Sabio.Data;
-using Sabio.Models.Domain.GameReports;
-using Sabio.Models.Domain.Conferences;
-using Google.Apis.AnalyticsReporting.v4.Data;
-using Sabio.Models.Domain;
-using Stripe.Terminal;
-using sib_api_v3_sdk.Model;
-using Sabio.Models.Domain.Teams;
-
 namespace Sabio.Services
 {
     public class ReplayEntryService : IReplayEntryService
