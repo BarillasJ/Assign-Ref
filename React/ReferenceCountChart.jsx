@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import ApexChart from "react-apexcharts";
 import referenceCount from "../../../services/siteReferenceService";
 import "./googleAnalytics.css";
-import debug from "sabio-debug";
+import debug from "assignRef-debug";
 const _logger = debug.extend("ReferenceCount");
 import {Card, Col, Spinner} from "react-bootstrap";
 
