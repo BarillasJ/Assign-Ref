@@ -1,6 +1,6 @@
 import React, {useEffect, useCallback, useState, useRef} from "react";
 import {useParams, Link} from "react-router-dom";
-import debug from "sabio-debug";
+import debug from "assignRef-debug";
 const logger = debug.extend("ReplayReportForm");
 
 import ReplayReports from "./ReplayReports";
